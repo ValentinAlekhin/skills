@@ -6,6 +6,12 @@
 | Скилл | Назначение |
 | --- | --- |
 | [mvp](mvp/SKILL.md) | Создание веб-MVP: Nuxt, Strapi при необходимости CMS, общий код в `common/` и Docker для всех сервисов. |
+| [ponytail](ponytail/SKILL.md) | Минимальное полное решение задачи без лишних зависимостей и абстракций. |
+
+`ponytail/SKILL.md` — копия без изменений из
+[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/skills/ponytail/SKILL.md),
+коммит `96608e078b2d5ea607c5c3b8b5a54d1c1fba6846`. Уведомление MIT сохранено
+в [ponytail/LICENSE](ponytail/LICENSE). Обновления из источника выполняются вручную.
 
 Примеры запросов после подключения скилла:
 

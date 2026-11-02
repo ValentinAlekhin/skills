@@ -15,6 +15,11 @@
   `skill-creator`. Если для валидатора нужен PyYAML, можно запускать его через
   `uv run --no-project --with pyyaml python <путь-к-quick_validate.py> <скилл>`.
 - Перед коммитом выполняй `git diff --check`.
+- `ponytail/SKILL.md` хранится как неизменённая сторонняя копия с MIT-лицензией
+  в `ponytail/LICENSE`; источник и версия записаны в `README.md`. Локальный
+  `quick_validate.py` не поддерживает его поле `argument-hint`. Сохраняй исходник;
+  при этой ошибке отдельно проверь YAML и обязательные поля и сообщи об ограничении
+  валидатора. Не изменяй сторонний файл только ради прохождения этой проверки.
 - Используй Conventional Commits: `<type>[optional scope][!]: <description>`.
   Для изменения `mvp/` указывай scope `mvp`, когда это помогает описанию.
 
