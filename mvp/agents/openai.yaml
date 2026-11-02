@@ -1,0 +1,3 @@
+interface:
+  display_name: "MVP"
+  short_description: "Nuxt, Strapi и Docker для MVP в монорепозитории"
